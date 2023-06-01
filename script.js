@@ -34,7 +34,6 @@ function btnEncriptar(){
 // `La letra "o" es convertida para "ober"`
 // `La letra "u" es convertida para "ufat"`
 
-
 function encriptar(stringEncriptada){
     let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
     stringEncriptada = stringEncriptada.toLowerCase()
@@ -48,7 +47,6 @@ function encriptar(stringEncriptada){
     }
     return stringEncriptada
 }
-
 
 
 function btnDesencriptar(){
